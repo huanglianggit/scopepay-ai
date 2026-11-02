@@ -1,0 +1,142 @@
+{
+  "base": "https://47.79.243.86:18080",
+  "checks": [
+    {
+      "check": "anonymous workspace denied",
+      "passed": true
+    },
+    {
+      "check": "owner HTTPS login",
+      "passed": true
+    },
+    {
+      "check": "owner cookie is secure and httponly",
+      "passed": true
+    },
+    {
+      "check": "authenticated workspace",
+      "passed": true
+    },
+    {
+      "check": "untrusted origin denied",
+      "passed": true
+    },
+    {
+      "check": "oversized request denied",
+      "passed": true
+    },
+    {
+      "check": "payment: create synthetic project",
+      "passed": true
+    },
+    {
+      "check": "payment: real model and source validation",
+      "passed": true
+    },
+    {
+      "check": "payment: draft saved",
+      "passed": true
+    },
+    {
+      "check": "payment: draft persisted",
+      "passed": true
+    },
+    {
+      "check": "payment: publish locked quote",
+      "passed": true
+    },
+    {
+      "check": "payment: published draft immutable",
+      "passed": true
+    },
+    {
+      "check": "payment: payment before acceptance blocked",
+      "passed": true
+    },
+    {
+      "check": "payment: client revision feedback",
+      "passed": true
+    },
+    {
+      "check": "payment: new revision created",
+      "passed": true
+    },
+    {
+      "check": "payment: replaced client link cannot accept",
+      "passed": true
+    },
+    {
+      "check": "payment: republish revised quote",
+      "passed": true
+    },
+    {
+      "check": "payment: exact version accepted",
+      "passed": true
+    },
+    {
+      "check": "payment: duplicate acceptance rejected",
+      "passed": true
+    },
+    {
+      "check": "payment: client export checksums and secret exclusion",
+      "passed": true
+    },
+    {
+      "check": "payment: owner ledger export",
+      "passed": true
+    },
+    {
+      "check": "payment: no fake paid state",
+      "passed": true
+    },
+    {
+      "check": "no-charge: create synthetic project",
+      "passed": true
+    },
+    {
+      "check": "no-charge: real model and source validation",
+      "passed": true
+    },
+    {
+      "check": "no-charge: draft saved",
+      "passed": true
+    },
+    {
+      "check": "no-charge: draft persisted",
+      "passed": true
+    },
+    {
+      "check": "no-charge: publish locked quote",
+      "passed": true
+    },
+    {
+      "check": "no-charge: published draft immutable",
+      "passed": true
+    },
+    {
+      "check": "no-charge: payment before acceptance blocked",
+      "passed": true
+    },
+    {
+      "check": "no-charge: exact version accepted",
+      "passed": true
+    },
+    {
+      "check": "no-charge: duplicate acceptance rejected",
+      "passed": true
+    },
+    {
+      "check": "no-charge: client export checksums and secret exclusion",
+      "passed": true
+    },
+    {
+      "check": "no-charge: owner ledger export",
+      "passed": true
+    },
+    {
+      "check": "no-charge: checkout refused",
+      "passed": true
+    }
+  ],
+  "checkout_or_capture_initiated": false
+}

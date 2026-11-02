@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-02",
+  "platform": "Windows",
+  "python": "3.12.10",
+  "node": "24.19.0",
+  "fresh_python_virtual_environment": true,
+  "npm_ci": "passed",
+  "python_requirements_install": "passed",
+  "pytest": "65 passed in 11.12s",
+  "warning": "One non-failing Starlette/httpx TestClient deprecation warning",
+  "production_build": "passed; 1582 modules; 3.15s",
+  "unit_test_external_providers": "mocked; unmocked external networking blocked",
+  "hosted_api_regression": "see hosted-api-regression-2026-11-02.json",
+  "new_hosted_buyer_checkout": "manual completion pending at this snapshot",
+  "devpost_final_submission": "not performed"
+}

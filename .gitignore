@@ -1,0 +1,11 @@
+.env
+.venv/
+data/
+dist/
+node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.tsbuildinfo
+.playwright-cli/
+output/
