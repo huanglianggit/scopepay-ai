@@ -11,7 +11,7 @@ ScopePay is a single-studio prototype for freelance web developers and designers
 - Hosted prototype: https://47.79.243.86:18080
 - Demo video: https://youtu.be/rMoDZ5U19lk (2 minutes 45 seconds, English narration and captions).
 - [English judging and testing guide](JUDGING.md). The studio access code is provided privately in the Devpost testing instructions, never in this public repository.
-- On November 2, 2026, public HTTPS, owner login, real SiliconFlow analysis, Sandbox OAuth, revision gates, no-charge confirmation, and checksum exports were verified. A fresh hosted buyer checkout remains a separate manual verification step; see the dated evidence below. Do not interpret an accepted quote or a configured connection as a completed payment.
+- On November 2, 2026, public HTTPS, owner login, real SiliconFlow analysis, Sandbox OAuth, revision gates, no-charge confirmation, and checksum exports were verified. The entrant completed the hosted Harbor version 2 USD 12.00 Sandbox purchase; an independent PayPal order read verified the completed capture, exact quote reference/fingerprint, amount and USD currency. Paid state, ledger and exports passed 24 follow-up checks. See [sanitized payment evidence](docs/evidence/hosted-payment-verification-2026-11-02.json). An accepted quote alone is not a completed payment.
 
 ## Current implementation status
 
@@ -19,7 +19,7 @@ ScopePay is a single-studio prototype for freelance web developers and designers
 - Default runtime: `AI_PROVIDER=demo` uses **explicitly labeled matching rules**, not an AI model. Unknown requests remain unclear. Demo payments are stored as `demo_paid`, never `paid`.
 - Live inference was verified on 2026-10-29 using SiliconFlow's `deepseek-ai/DeepSeek-V4-Flash`, including schema and exact-source quotation checks. OpenAI-compatible API and local Ollama adapters remain available; Ollama was not live-tested.
 - A USD 99 PayPal Sandbox transaction was completed on 2026-10-29. A subsequent server-side GET confirmed the PayPal order was COMPLETED and the capture matched the locked quote and local paid record. This was test money, not a production transaction. Retry/cancellation/webhook paths have automated test coverage; real-provider edge-case and webhook verification remain separate work.
-- Submission preparation is in progress. The hosted build and English-captioned video are available; the public source and final Devpost access instructions must be checked before final submission. This repository is not a submission receipt.
+- Submission preparation is in progress. The public MIT source, hosted build, English-captioned video, private judging access instructions and updated supporting kit are prepared. Devpost remains a draft until the entrant accepts final terms and submits. This repository is not a submission receipt.
 
 ## Run locally on Windows
 

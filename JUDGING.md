@@ -28,6 +28,7 @@ Do not create a new order merely because a network response was interrupted. Use
 
 - November 2: public HTTPS and access-code login; anonymous workspace denial; live hosted SiliconFlow inference with source validation; server-side PayPal Sandbox OAuth.
 - November 2: hosted API regression covering draft persistence, immutable publication, client revision feedback, superseded-link rejection, repeated-acceptance rejection, zero-dollar confirmation/payment blocking, and verified ZIP checksums.
+- November 2: the entrant completed the hosted Harbor version 2 USD 12.00 Sandbox buyer purchase. A separate PayPal GET confirmed the order and capture as COMPLETED and matched the locked quote reference, fingerprint, USD amount and stored capture. All 24 follow-up checks passed, including refreshed paid state, exactly one paid audit event, Sandbox-only ledger totals and matching client/owner ZIP exports. The verifier did not initiate an order or capture. See [sanitized payment evidence](docs/evidence/hosted-payment-verification-2026-11-02.json).
 - October 29: a separate local USD 99 Sandbox purchase was completed by the entrant and independently reconciled against the stored quote. This is historical test-fund evidence, not proof that every newer hosted checkout has been completed.
 - Current clean-install/unit/build evidence is recorded in the dated regression report. Financial and model edge cases mocked in unit tests are not live-provider validation.
 

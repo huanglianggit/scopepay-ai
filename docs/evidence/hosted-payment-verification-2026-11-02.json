@@ -1,0 +1,112 @@
+{
+  "verified_at_utc": "2026-11-02T03:30:39.522598+00:00",
+  "base": "https://47.79.243.86:18080",
+  "environment": "PayPal Sandbox",
+  "case": "Harbor hosted version 2, USD 12.00",
+  "agent_initiated_order_or_capture": false,
+  "checks": [
+    {
+      "check": "client record readable",
+      "passed": true
+    },
+    {
+      "check": "persisted paid status",
+      "passed": true
+    },
+    {
+      "check": "paid version and USD amount",
+      "passed": true
+    },
+    {
+      "check": "Sandbox mode and capture present",
+      "passed": true
+    },
+    {
+      "check": "payment time persisted",
+      "passed": true
+    },
+    {
+      "check": "owner login",
+      "passed": true
+    },
+    {
+      "check": "owner workspace readable",
+      "passed": true
+    },
+    {
+      "check": "authoritative order COMPLETED",
+      "passed": true
+    },
+    {
+      "check": "authoritative capture matches persisted ID",
+      "passed": true
+    },
+    {
+      "check": "quote reference fingerprint amount and currency verified",
+      "passed": true
+    },
+    {
+      "check": "client paid state survives fresh read",
+      "passed": true
+    },
+    {
+      "check": "owner ledger readable",
+      "passed": true
+    },
+    {
+      "check": "ledger counts only USD 12 verified Sandbox funds",
+      "passed": true
+    },
+    {
+      "check": "paid client export: HTTP 200",
+      "passed": true
+    },
+    {
+      "check": "paid client export: CRC",
+      "passed": true
+    },
+    {
+      "check": "paid client export: checksums",
+      "passed": true
+    },
+    {
+      "check": "paid client export: private values excluded",
+      "passed": true
+    },
+    {
+      "check": "client export matches paid version and capture",
+      "passed": true
+    },
+    {
+      "check": "paid ledger export: HTTP 200",
+      "passed": true
+    },
+    {
+      "check": "paid ledger export: CRC",
+      "passed": true
+    },
+    {
+      "check": "paid ledger export: checksums",
+      "passed": true
+    },
+    {
+      "check": "paid ledger export: private values excluded",
+      "passed": true
+    },
+    {
+      "check": "ledger export matches verified paid total",
+      "passed": true
+    },
+    {
+      "check": "exactly one persisted paid audit event",
+      "passed": true
+    }
+  ],
+  "paypal_order_status": "COMPLETED",
+  "capture_status": "COMPLETED",
+  "currency": "USD",
+  "amount": "12.00",
+  "order_id_sha256": "b7a4fa1c3954129f7ee5b17481adc996ff7f103929f8b432f9e8513da8b7db9a",
+  "capture_id_sha256": "f74ccc4f0d8c59b3d60d8427d0c0036fd3d0d9d2ee4b6fe9746b484a1315a14a",
+  "result": "passed"
+}
